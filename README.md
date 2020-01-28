@@ -9,6 +9,9 @@ Things that you are not planning to code yourself and that is a probably a good 
 The idea behind the :lollipop: is to start with docker-compose and find the least amount of 3rd party tools (that are well known) or build utilities that are simple but missing.  
 The end product should enable anyone to quick design and build a microservice architecture while maintaining small infrastructure footprint.
 
+# Diagram
+![Diagram](/images/diagram.png)
+
 # Requirements
 
 The system must provide:
