@@ -10,7 +10,7 @@ The idea behind the :lollipop: is to start with docker-compose and find the leas
 The end product should enable anyone to quick design and build a microservice architecture while maintaining small infrastructure footprint.
 
 # Diagram
-![Diagram](/images/diagram.png)
+![Diagram](/images/lollipop-diagram.png)
 
 # Requirements
 
