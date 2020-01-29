@@ -28,6 +28,7 @@ Current 3rd party tools:
 * Centralized logging: ELK stack most probably
 * Tracing: OpenTracing or OpenTelemetry if it is ready
 * Monitoring: Using [:alembic:](https://github.com/MirzaMerdovic/alembic) or going all the way with Prometheus will see 
+* Configuration management using [:rat:](https://github.com/MirzaMerdovic/rat). _Note: optional component_
 
 Local development utilities:
 * Seeders: [:unicorn:](https://github.com/MirzaMerdovic/unicorn) and [:shower:](https://github.com/MirzaMerdovic/shower)
