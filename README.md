@@ -10,7 +10,7 @@ The idea behind the :lollipop: is to start with docker-compose and find the leas
 The end product should enable anyone to quick design and build a microservice architecture while maintaining small infrastructure footprint.
 
 # Diagram
-![Diagram](/images/lollipop-diagram.png)
+![Diagram](/images/lollipop-diagram.svg)
 
 # Requirements
 
@@ -24,7 +24,7 @@ The system must provide:
 * Tracing
 
 Current 3rd party tools:
-* Traefik: will be used for ingress/egress, load balancing, circuit breaking and way to do canary deployments
+* [YARP](https://github.com/microsoft/reverse-proxy): will be used for ingress/egress, load balancing, circuit breaking and way to do canary deployments
 * Centralized logging: ELK stack most probably
 * Tracing: OpenTracing or OpenTelemetry if it is ready
 * Monitoring: Using [:alembic:](https://github.com/MirzaMerdovic/alembic) or going all the way with Prometheus will see 
